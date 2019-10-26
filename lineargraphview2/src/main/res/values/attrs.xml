@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LinearGraphView">
+
+        <attr name="lgv_border_color" format="color" />
+
+        <attr name="lgv_border_anim_duration" format="integer" />
+
+        // TODO (Swapnil) introduce these params
+        <!--<attr name="lgv_corner_radius" format="dimension" />-->
+        <!--<attr name="lgv_stroke_width" format="dimension" />-->
+
+    </declare-styleable>
+
+</resources>
