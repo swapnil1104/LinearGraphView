@@ -214,7 +214,7 @@ public class LinearGraphView extends View {
             paint.setColor(Color.parseColor(model.colorRes));
             dataPaintList.add(paint);
 
-            float curWidth = model.data / totalValue * width;
+            float curWidth = model.value / totalValue * width;
             if (curWidth < cornerRadius) {
                 curWidth = cornerRadius * 1.5F;
             }

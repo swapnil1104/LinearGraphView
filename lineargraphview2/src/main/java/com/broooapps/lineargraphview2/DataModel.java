@@ -5,7 +5,7 @@ import androidx.annotation.Nullable;
 
 public class DataModel {
 
-    int data;
+    int value;
 
     @ColorInt
     int colorInt;
@@ -15,24 +15,24 @@ public class DataModel {
     @Nullable
     String title;
 
-    public DataModel(String title, int colorInt, int data) {
-        this.data = data;
+    public DataModel(String title, int colorInt, int value) {
+        this.value = value;
         this.title = title;
         this.colorInt = colorInt;
     }
 
-    public DataModel(String title, String colorRes, int data) {
-        this.data = data;
+    public DataModel(String title, String colorRes, int value) {
+        this.value = value;
         this.title = title;
         this.colorRes = colorRes;
     }
 
-    public int getData() {
-        return data;
+    public int getValue() {
+        return value;
     }
 
-    public void setData(int data) {
-        this.data = data;
+    public void setValue(int value) {
+        this.value = value;
     }
 
     public String getColorRes() {

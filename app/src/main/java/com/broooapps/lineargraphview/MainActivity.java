@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
         List<DataModel> dm = new ArrayList<>();
 
-        dm.add(new DataModel("One", "#123123", 200));
-        dm.add(new DataModel("two", "#abcdef", 200));
-        dm.add(new DataModel("three", "#cdebad", 200));
-        dm.add(new DataModel("four",  "#abbcde", 200));
+        dm.add(new DataModel("One", "#00ffff", 100));
+        dm.add(new DataModel("Two", "#74EEA1", 250));
+        dm.add(new DataModel("Three", "#f2002f", 100));
+        dm.add(new DataModel("four", "#B61CB3", 180));
 
         lgv.setData(dm, 999);
     }

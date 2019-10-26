@@ -2,6 +2,6 @@
 <resources>
 
     <color name="linear_graph_border">#000</color>
-    <color name="linear_graph_bg">#f2f2f2</color>
+    <color name="linear_graph_bg">#B61CB3</color>
 
 </resources>
