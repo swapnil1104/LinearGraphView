@@ -50,6 +50,7 @@ lgv.setData(dm, 999);
 
 ```
 The above code will result in this:
+
 ![Demo with underline](images/demo2.gif)
 
 ## How to customize the view.
