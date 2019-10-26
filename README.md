@@ -42,12 +42,12 @@ LinearGraphView lgv = findViewById(R.id.linear_graph_view);
 
 List<DataModel> dataList = new ArrayList<>();
 
-dm.add(new DataModel("One", "#00ffff", 100));
-dm.add(new DataModel("Two", "#74EEA1", 250));
-dm.add(new DataModel("Three", "#f2002f", 100));
-dm.add(new DataModel("four", "#B61CB3", 180));
+dataList.add(new DataModel("One", "#00ffff", 100));
+dataList.add(new DataModel("Two", "#74EEA1", 250));
+dataList.add(new DataModel("Three", "#f2002f", 100));
+dataList.add(new DataModel("four", "#B61CB3", 180));
 
-lgv.setData(dm, 999);
+lgv.setData(dataList, 1000);
 
 ```
 The above code will result in this:
