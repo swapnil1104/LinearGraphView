@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':lineargraphview2'
 rootProject.name='LinearGraphView'
