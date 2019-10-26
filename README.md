@@ -5,6 +5,7 @@
 A custom view to display information in a Linear Graph with smooth animations! 
 
 ![Demo with underline](images/demo.gif)
+![Demo with underline](images/demo2.gif)
 
 ## How to integrate the library in your app?
 Step 1: Add it in your root build.gradle at the end of repositories:
