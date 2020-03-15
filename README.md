@@ -1,6 +1,7 @@
 # LinearGraphView
 
 [![](https://jitpack.io/v/swapnil1104/LinearGraphView.svg)](https://jitpack.io/#swapnil1104/LinearGraphView)
+[![](https://jitpack.io/v/swapnil1104/LinearGraphView/month.svg)](https://jitpack.io/#swapnil1104/LinearGraphView)
 
 A custom view to display information in a Linear Graph with smooth animations! 
 
